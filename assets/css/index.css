@@ -10,13 +10,13 @@
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
   100% {
-    border-width: 20px 100px 170px 100px;
+    border-width: 20px 100px 150px 80px;
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
 }
 @-webkit-keyframes postItUnfold {
   0% {
-    border-width: 5px 5px 20px 5px;
+    border-width: 2px 5px 15px 5px;
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
   50% {
@@ -24,7 +24,7 @@
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
   100% {
-    border-width: 20px 180px 150px 80px;
+    border-width: 20px 100px 150px 80px;
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
 }
@@ -46,7 +46,7 @@
     opacity: 0;
   }
   50% {
-    opacity: 0.3;
+    opacity: 0.1;
   }
   100% {
     opacity: 1;
@@ -55,7 +55,7 @@
 
 @keyframes postIt {
   0% {
-    border-width: 20px 180px 150px 80px;
+    border-width: 20px 100px 150px 80px;
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
   50% {
@@ -63,14 +63,14 @@
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
   100% {
-    border-width: 5px 5px 20px 5px;
+    border-width: 2px 5px 15px 5px;
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
 }
 
 @-webkit-keyframes postIt {
   0% {
-    border-width: 20px 100px 170px 100px;
+    border-width: 20px 100px 150px 80px;
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
   50% {
@@ -78,7 +78,7 @@
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
   100% {
-    border-width: 5px 5px 20px 5px;
+    border-width: 2px 5px 15px 5px;
     border-color: transparent #ffc4a3 #ffc4a3 #ffc4a3;
   }
 }
