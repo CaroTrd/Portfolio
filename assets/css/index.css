@@ -109,6 +109,27 @@
   }
 }
 
+@keyframes linkEffect {
+  25% {
+    border-top: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  50% {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    border-top: 1px solid #ececec;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  100% {
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
 /* About me */
 
 @keyframes titled {
@@ -178,6 +199,16 @@ ul {
   padding-left: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
+div div a:hover {
+  color: grey;
+  -webkit-animation: linkEffect 1s ease;
+  animation: linkEffect 1s ease;
+}
+
 /* Navbar */
 
 .container-navbar {
@@ -192,6 +223,34 @@ ul {
   border-color: transparent #edf492 #edf492 #edf492;
 }
 
+div div a {
+  padding: 0 5px;
+  font-size: 1.2em;
+  color: black;
+}
+
+.active {
+  color: grey;
+}
+
+.navbar-lang {
+  width: 140px;
+}
+
+header h1 {
+  width: auto;
+  font-size: 1.2em;
+}
+
+header h1:hover {
+  color: grey;
+}
+
+header {
+  text-align: start;
+  padding: 5px;
+}
+
 .unfold {
   height: 100px;
   -webkit-animation: postItUnfold 0.7s linear forwards;
@@ -201,16 +260,6 @@ ul {
 .fold {
   -webkit-animation: postIt 0.7s linear forwards;
   animation: postIt 0.7s linear forwards;
-}
-
-header h1 {
-  width: auto;
-  font-size: 0.9em;
-}
-
-header {
-  text-align: start;
-  padding: 15px;
 }
 
 .nav {
@@ -229,6 +278,10 @@ header {
   padding-left: 10px;
 }
 
+a:hover {
+  border-bottom: 1px solid grey;
+}
+
 .logo {
   width: 32px;
   height: 32px;
@@ -238,6 +291,11 @@ header {
 
 #aboutMe {
   width: auto;
+  background-image: url(../img/background-first-section.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  position: relative;
 }
 
 .aboutMeTitle {
@@ -247,6 +305,7 @@ header {
   margin: 5px;
   width: 500px;
   font-size: 3em;
+  -webkit-animation: titled 0.7s ease-in-out forwards;
   animation: titled 0.7s ease-in-out forwards;
 }
 
@@ -257,6 +316,7 @@ header {
   margin: 5px;
   width: 500px;
   font-size: 2.5em;
+  -webkit-animation: first 1.7s ease-out forwards;
   animation: first 1.7s ease-out forwards;
 }
 
@@ -267,23 +327,47 @@ header {
   margin: 5px;
   width: 500px;
   font-size: 1.5em;
-  animation: first 2.7s ease-out forwards;
+  -webkit-animation: first 3s ease-out forwards;
+  animation: first 3s ease-out forwards;
 }
 
-#aboutMe-third {
+.aboutMeThird {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  margin: 5px;
+  width: 500px;
+  font-size: 1.5em;
+  -webkit-animation: first 4.1s ease-in forwards;
+  animation: first 4.1s ease-out forwards;
+}
+
+.aboutMeFourth {
   position: absolute;
   top: 300px;
   left: 40%;
   margin: 5px;
   width: 500px;
   font-size: 2.5em;
-  animation: first 8.7s ease-out forwards;
+  -webkit-animation: first 9s ease-out forwards;
+  animation: first 9s ease-out forwards;
 }
 
-.aboutMe-fourth {
+#aboutMe a {
+  color: #1b6ca8;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 600px) {
+#aboutMe a:hover {
+  box-shadow: 1px 8px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 920px) {
   @-webkit-keyframes postItUnfold {
     0% {
       border-width: 20px 110px 170px 100px;
@@ -373,7 +457,7 @@ header {
       opacity: 1;
     }
   }
-  
+
   @keyframes postItText {
     0% {
       opacity: 0;
@@ -389,14 +473,7 @@ header {
     }
   }
 
-  /* Navbar */
-  header h1 {
-    font-size: 1.5em;
-  }
-  .logo {
-    width: 52px;
-    height: 52px;
-  }
+  /* Navabr */
 
   .unfold {
     height: 100px;
@@ -418,48 +495,69 @@ header {
 
   #aboutMe {
     width: auto;
+    background-position: right;
   }
 
   .aboutMeTitle {
-    position: absolute;
     top: 30%;
     left: 25%;
-    margin: 5px;
-    width: 500px;
-    font-size: 3em;
-    animation: titled 0.7s ease-in-out forwards;
   }
-
+  
   .aboutMeFirst {
-    position: absolute;
     top: 40%;
     left: 25%;
-    margin: 5px;
-    width: 500px;
-    font-size: 2.5em;
-    animation: first 1.7s ease-out forwards;
   }
-
+  
   .aboutMeSecond {
-    position: absolute;
-    top: 50%;
+    top: 47%;
     left: 25%;
-    margin: 5px;
-    width: 500px;
+  }
+  .aboutMeThird {
+    top: 57%;
+    left: 25%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  /* Navbar */
+
+  div div a {
+    font-size: 1.4em;
+  }
+
+  header h1 {
     font-size: 1.5em;
-    animation: first 2.7s ease-out forwards;
   }
 
-  #aboutMe-third {
-    position: absolute;
-    top: 300px;
-    left: 40%;
-    margin: 5px;
-    width: 500px;
-    font-size: 2.5em;
-    animation: first 8.7s ease-out forwards;
+  .logo {
+    width: 52px;
+    height: 52px;
   }
 
-  .aboutMe-fourth {
+  /* About me */
+
+  .aboutMeTitle {
+    top: 30%;
+    left: 5%;
+    font-size: 2em;
+  }
+  
+  .aboutMeFirst {
+    top: 40%;
+    left: 5%;
+    font-size: 1.5em;
+  }
+  
+  .aboutMeSecond {
+    top: 45%;
+    left: 5%;
+    font-size: 01em;
+  }
+  .aboutMeThird {
+    top: 55%;
+    left: 5%;
+    font-size: 1em;
   }
 }
