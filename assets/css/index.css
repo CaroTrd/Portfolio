@@ -113,7 +113,6 @@
   25% {
     border-top: 1px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
   }
   50% {
     border-bottom: 1px solid grey;
@@ -122,13 +121,47 @@
   75% {
     border-top: 1px solid #ececec;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
   }
   100% {
     border-bottom: 1px solid #dbdbdb;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
+
+/* Scroll */
+
+@-webkit-keyframes scrollAnimated {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  35% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scrollAnimated {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  35% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 /* About me */
 
@@ -186,11 +219,38 @@
   }
 }
 
+/* Resume */
+
+@keyframes backEffect {
+  0% {
+    transform: translateY(300px);
+  }
+  35% {
+    transform: translateY(75px);
+  }
+  70% {
+    transform: translateY(37.5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 /* All page */
 
+body, html, header, h1 {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  margin: auto;
   font-family: flood-std, sans-serif;
+  overflow: none;
+}
+
+header, body, html {
+  width: 100%;
+  height: 100%;
 }
 
 ul {
@@ -205,9 +265,24 @@ a {
 
 div div a:hover {
   color: grey;
+  border-radius: 10px;
   -webkit-animation: linkEffect 1s ease;
   animation: linkEffect 1s ease;
 }
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Scroll */
+
+.is-visible {
+  -webkit-animation: scrollAnimated 1s linear alternate;
+  animation: scrollAnimated 1s linear alternate;
+}
+
+
 
 /* Navbar */
 
@@ -275,8 +350,8 @@ header {
 }
 
 .nav-item {
-  padding-left: 10px;
-}
+  padding: 5px 0 5px 10px;
+} 
 
 a:hover {
   border-bottom: 1px solid grey;
@@ -289,71 +364,64 @@ a:hover {
 
 /* About me */
 
-#aboutMe {
-  width: auto;
-  background-image: url(../img/background-first-section.png);
-  background-size: cover;
-  background-position: center;
-  height: 100vh; 
-  position: relative;
+section:nth-child(2) {
+  background-color: #f4f4f4;
 }
 
-.aboutMeTitle {
-  position: absolute;
-  top: 30%;
-  left: 45%;
-  margin: 5px;
+#aboutMe {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.aboutMe-paper {
   width: 500px;
+  margin-right: 50px;
+  background-color: #fcf8f3;
+  border: 1px solid #fcf8f3;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#aboutMeTitle {
+  padding: 0 0 30px 0;
   font-size: 3em;
   -webkit-animation: titled 0.7s ease-in-out forwards;
   animation: titled 0.7s ease-in-out forwards;
 }
 
-.aboutMeFirst {
-  position: absolute;
-  top: 40%;
-  left: 45%;
-  margin: 5px;
-  width: 500px;
+#aboutMeFirst {
+  margin: 0;
+  padding: 0 0 5px 0;
   font-size: 2.5em;
   -webkit-animation: first 1.7s ease-out forwards;
   animation: first 1.7s ease-out forwards;
 }
 
-.aboutMeSecond {
-  position: absolute;
-  top: 50%;
-  left: 45%;
-  margin: 5px;
-  width: 500px;
+#aboutMeSecond {
+  margin: 0;
+  padding: 5px 0 30px 0;
   font-size: 1.5em;
   -webkit-animation: first 3s ease-out forwards;
   animation: first 3s ease-out forwards;
 }
 
-.aboutMeThird {
-  position: absolute;
-  top: 60%;
-  left: 45%;
-  margin: 5px;
-  width: 500px;
+#aboutMeThird {
   font-size: 1.5em;
   -webkit-animation: first 4.1s ease-in forwards;
   animation: first 4.1s ease-out forwards;
 }
 
-.aboutMeFourth {
-  position: absolute;
-  top: 300px;
-  left: 40%;
-  margin: 5px;
-  width: 500px;
-  font-size: 2.5em;
-  -webkit-animation: first 9s ease-out forwards;
-  animation: first 9s ease-out forwards;
-}
-
-#aboutMe a {
+#aboutMe a,
+#resume .resume-paper a {
   color: #1b6ca8;
   text-align: center;
   padding: 10px;
@@ -363,11 +431,48 @@ a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#aboutMe a:hover {
+#aboutMe a:hover,
+#resume .resume-paper a:hover {
+  color: grey;
   box-shadow: 1px 8px 12px 4px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 920px) {
+/* Resume */
+
+section:nth-child(3) {
+  background: url(../img/white-ceramic.webp), url(../img/white-ceramic.jpg) no-repeat center center;
+  background-attachment: fixed;
+}
+
+#resume {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-paper {
+  text-align: center;
+  vertical-align: center;
+  width: 450px;
+  background-color: #fcf8f3;
+  border: 1px solid #fcf8f3;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.resume-paper h1 {
+  font-size: 3em;
+  padding: 20px 0;
+}
+
+#resumeFirst {
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 940px) {
   @-webkit-keyframes postItUnfold {
     0% {
       border-width: 20px 110px 170px 100px;
@@ -472,6 +577,7 @@ a:hover {
       opacity: 1;
     }
   }
+  
 
   /* Navabr */
 
@@ -493,34 +599,44 @@ a:hover {
 
   /* About me */
 
-  #aboutMe {
+  .aboutMe-paper {
     width: auto;
-    background-position: right;
+    padding-top: 10px;
   }
 
-  .aboutMeTitle {
-    top: 30%;
-    left: 25%;
+  #aboutMeTitle {
+    margin: 20px 0;
+    font-size: 3em;
   }
   
-  .aboutMeFirst {
-    top: 40%;
-    left: 25%;
+  #aboutMeFirst {
+    margin: 5px 0;
+    font-size: 2.5em;
   }
   
-  .aboutMeSecond {
-    top: 47%;
-    left: 25%;
+  #aboutMeSecond {
+    margin: 0 0 40px 0;
+    font-size: 1.5em;
   }
-  .aboutMeThird {
-    top: 57%;
-    left: 25%;
+  
+  #aboutMeThird {
+    font-size: 1.5em;
+  }
+
+
+  /* Resume */
+
+  .resume-paper h1 {
+    width: auto;
+    font-size: 3em;
+  }
+
+  #resumeFirst {
+    font-size: 1.5em;
   }
 }
 
-
 @media only screen and (max-width: 600px) {
-
   /* Navbar */
 
   div div a {
@@ -538,26 +654,84 @@ a:hover {
 
   /* About me */
 
-  .aboutMeTitle {
-    top: 30%;
-    left: 5%;
+  .aboutMe-paper {
+    width: 250px;
+  }
+
+  #aboutMeTitle {
     font-size: 2em;
   }
-  
-  .aboutMeFirst {
-    top: 40%;
-    left: 5%;
+
+  #aboutMeFirst {
     font-size: 1.5em;
   }
-  
-  .aboutMeSecond {
-    top: 45%;
-    left: 5%;
-    font-size: 01em;
-  }
-  .aboutMeThird {
-    top: 55%;
-    left: 5%;
+
+  #aboutMeSecond {
     font-size: 1em;
+  }
+  
+  #aboutMeThird {
+    font-size: 1em;
+  }
+
+  /* Resume */
+
+  .resume-paper {
+    width: 250px;
+  }
+  .resume-paper h1 {
+    font-size: 2em;
+  }
+
+  #resumeFirst {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  /* About me */
+
+  #aboutMe {
+    padding-top: 40px;
+  }
+
+  .aboutMe-paper {
+    width: 100%;
+    max-width: 190px;
+    height: 280px;
+  }
+
+  #aboutMeTitle {
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    margin: 0;
+  }
+
+  #aboutMeFirst {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 0.8em;
+  }
+
+  #aboutMeSecond {
+    padding-bottom: 0;
+    font-size: 0.5em;
+  }
+  
+  #aboutMeThird {
+    font-size: 0.5em;
+  }
+
+  /* Resume */
+
+  .resume-paper {
+    width: 180px;
+  }
+  .resume-paper h1 {
+    font-size: 1.5em;
+  }
+
+  #resumeFirst {
+    font-size: 0.5em;
   }
 }
