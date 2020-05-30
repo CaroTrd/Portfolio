@@ -162,7 +162,6 @@
   }
 }
 
-
 /* About me */
 
 @keyframes titled {
@@ -238,7 +237,10 @@
 
 /* All page */
 
-body, html, header, h1 {
+body,
+html,
+header,
+h1 {
   margin: 0;
   padding: 0;
 }
@@ -248,7 +250,9 @@ body {
   overflow: none;
 }
 
-header, body, html {
+header,
+body,
+html {
   width: 100%;
   height: 100%;
 }
@@ -275,14 +279,16 @@ section {
   height: 100vh;
 }
 
+.buttonSections {
+  font-size: 1.5em;
+}
+
 /* Scroll */
 
 .is-visible {
   -webkit-animation: scrollAnimated 1s linear alternate;
   animation: scrollAnimated 1s linear alternate;
 }
-
-
 
 /* Navbar */
 
@@ -351,7 +357,7 @@ header {
 
 .nav-item {
   padding: 5px 0 5px 10px;
-} 
+}
 
 a:hover {
   border-bottom: 1px solid grey;
@@ -421,7 +427,8 @@ section:nth-child(2) {
 }
 
 #aboutMe a,
-#resume .resume-paper a {
+#resume .resume-paper a,
+#portfolio .portfolio-paper a {
   color: #1b6ca8;
   text-align: center;
   padding: 10px;
@@ -432,7 +439,8 @@ section:nth-child(2) {
 }
 
 #aboutMe a:hover,
-#resume .resume-paper a:hover {
+#resume .resume-paper a:hover,
+#portfolio .portfolio-paper a:hover {
   color: grey;
   box-shadow: 1px 8px 12px 4px rgba(0, 0, 0, 0.2);
 }
@@ -440,7 +448,8 @@ section:nth-child(2) {
 /* Resume */
 
 section:nth-child(3) {
-  background: url(../img/white-ceramic.webp), url(../img/white-ceramic.jpg) no-repeat center center;
+  background: url(../img/white-ceramic.webp),
+    url(../img/white-ceramic.jpg) no-repeat center center;
   background-attachment: fixed;
 }
 
@@ -468,8 +477,32 @@ section:nth-child(3) {
   padding: 20px 0;
 }
 
-#resumeFirst {
-  font-size: 1.5em;
+/* Portfolio */
+
+section:nth-child(4) {
+  background: url(../img/tablet.jpg) no-repeat center center;
+}
+
+#portfolio {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-paper {
+  text-align: center;
+  vertical-align: center;
+  width: 350px;
+  margin-right: 10px;
+  padding: 50px;
+}
+.portfolio-paper h1 {
+  font-size: 3em;
+  padding: 20px 0;
 }
 
 @media only screen and (max-width: 940px) {
@@ -577,7 +610,6 @@ section:nth-child(3) {
       opacity: 1;
     }
   }
-  
 
   /* Navabr */
 
@@ -608,21 +640,20 @@ section:nth-child(3) {
     margin: 20px 0;
     font-size: 3em;
   }
-  
+
   #aboutMeFirst {
     margin: 5px 0;
     font-size: 2.5em;
   }
-  
+
   #aboutMeSecond {
     margin: 0 0 40px 0;
     font-size: 1.5em;
   }
-  
+
   #aboutMeThird {
     font-size: 1.5em;
   }
-
 
   /* Resume */
 
@@ -631,12 +662,20 @@ section:nth-child(3) {
     font-size: 3em;
   }
 
-  #resumeFirst {
-    font-size: 1.5em;
+  /* Portfolio */
+
+  .portfolio-paper h1 {
+    width: auto;
+    font-size: 3em;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  /* All site */
+  .buttonSections {
+    font-size: 1em;
+  }
+
   /* Navbar */
 
   div div a {
@@ -669,7 +708,7 @@ section:nth-child(3) {
   #aboutMeSecond {
     font-size: 1em;
   }
-  
+
   #aboutMeThird {
     font-size: 1em;
   }
@@ -683,12 +722,22 @@ section:nth-child(3) {
     font-size: 2em;
   }
 
-  #resumeFirst {
-    font-size: 1em;
+  /* Portfolio */
+
+  .portfolio-paper {
+    width: 250px;
+  }
+  .portfolio-paper h1 {
+    font-size: 2em;
   }
 }
 
 @media only screen and (max-width: 380px) {
+  /* All site */
+  .buttonSections {
+    font-size: 0.5em;
+  }
+
   /* About me */
 
   #aboutMe {
@@ -717,7 +766,7 @@ section:nth-child(3) {
     padding-bottom: 0;
     font-size: 0.5em;
   }
-  
+
   #aboutMeThird {
     font-size: 0.5em;
   }
@@ -731,7 +780,12 @@ section:nth-child(3) {
     font-size: 1.5em;
   }
 
-  #resumeFirst {
-    font-size: 0.5em;
+  /* Portfolio */
+
+  .portfolio-paper {
+    width: 180px;
+  }
+  .portfolio-paper h1 {
+    font-size: 1.5em;
   }
 }

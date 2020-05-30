@@ -22,7 +22,8 @@ function buttonNav() {
   const paragraph2 = document.querySelector("#aboutMeSecond");
   const paragraph3 = document.querySelector("#aboutMeThird");
   const paragraph4 = document.querySelector("#resumeTitle");
-  const paragraph5 = document.querySelector("#resumeFirst");
+  const paragraph5 = document.querySelectorAll(".buttonSections");
+  const paragraph6 = document.querySelector("#portfolioTitle");
 
   // language translation
   const data = {
@@ -33,6 +34,7 @@ function buttonNav() {
       para3: "Welcome!",
       para4: "Resume",
       para5: "Let's go",
+      para6: "Portfolio",
     },
     fr: {
       title: "Salut,",
@@ -41,6 +43,7 @@ function buttonNav() {
       para3: "Bienvenu(e)!",
       para4: "Curriculum vitae",
       para5: "C'est parti",
+      para6: "Portfolio",
     },
     es: {
       title: "Hola,",
@@ -49,6 +52,7 @@ function buttonNav() {
       para3: "Bienvenido/a!",
       para4: "Curriculum vitae",
       para5: "Ingresar",
+      para6: "Portfolio",
     },
   };
 
@@ -65,7 +69,8 @@ function buttonNav() {
         paragraph2.textContent = data[y].para2;
         paragraph3.textContent = data[y].para3;
         paragraph4.textContent = data[y].para4;
-        paragraph5.textContent = data[y].para5;
+        paragraph5.forEach((item) => (item.textContent = data[y].para5));
+        paragraph6.textContent = data[y].para6;
       });
     }
   });
@@ -101,10 +106,8 @@ function loop() {
   elementsToShow.forEach(function (element) {
     if (isElementInViewport(element)) {
       element.classList.add("is-visible");
-      element.classList.remove("not-visible");
     } else {
       element.classList.remove("is-visible");
-      element.classList.add("not-visible");
     }
   });
   scroll(loop);
@@ -114,5 +117,3 @@ window.addEventListener("scroll", function () {
   loop();
   console.log("Scrolling");
 });
-
-
