@@ -1,108 +1,60 @@
-@import url("https://use.typekit.net/lrk1gqa.css");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;700&display=swap");
 
 /*  Navbar */
-@-webkit-keyframes postItUnfold {
-  0% {
-    border-width: 2px 5px 15px 5px;
-  }
-  10% {
-    border-width: 12px 45px 90px 45px;
-  }
-  50% {
-    border-width: 12px 45px 90px 45px;
-  }
-  100% {
-    border-width: 20px 100px 150px 80px;
-  }
-}
-
-@keyframes postItUnfold {
-  0% {
-    border-width: 2px 5px 15px 5px;
-  }
-  50% {
-    border-width: 12px 45px 90px 45px;
-  }
-  100% {
-    border-width: 20px 100px 150px 80px;
-  }
-}
-
-@-webkit-keyframes postIt {
-  0% {
-    border-width: 20px 100px 150px 80px;
-  }
-  5% {
-    border-width: 12px 45px 90px 45px;
-  }
-  10% {
-    border-width: 12px 45px 90px 45px;
-  }
-  100% {
-    border-width: 2px 5px 15px 5px;
-  }
-}
-
-@keyframes postIt {
-  0% {
-    border-width: 20px 100px 150px 80px;
-  }
-  50% {
-    border-width: 12px 45px 90px 45px;
-  }
-  100% {
-    border-width: 2px 5px 15px 5px;
-  }
-}
-
-@-webkit-keyframes postItUnfoldText {
+@-webkit-keyframes visibleContain {
   0% {
     opacity: 0;
   }
-  5% {
-    opacity: 0;
+  60% {
+    opacity: 0.4;
   }
-  10% {
-    opacity: 0.1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes postItUnfoldText {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.1;
+  62% {
+    opacity: 0.7;
   }
   100% {
     opacity: 1;
   }
 }
 
-@-webkit-keyframes postItText {
+@keyframes visibleContain {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  62% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes unvisibleContain {
   0% {
     opacity: 1;
   }
-  5% {
-    opacity: 1;
+  60% {
+    opacity: 0.7;
   }
-  10% {
-    opacity: 0.5;
+  62% {
+    opacity: 0.4;
   }
   100% {
     opacity: 0;
   }
 }
 
-@keyframes postItText {
+@keyframes unvisibleContain {
   0% {
     opacity: 1;
   }
-  50% {
-    opacity: 0.5;
+  60% {
+    opacity: 0.7;
+  }
+  62% {
+    opacity: 0.4;
   }
   100% {
     opacity: 0;
@@ -115,7 +67,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   50% {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #999;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   75% {
@@ -130,35 +82,59 @@
 
 /* Scroll */
 
-@-webkit-keyframes scrollAnimated {
+@-webkit-keyframes scrollDown {
   0% {
+    transform: skewX(53deg) translateX(500px);
     opacity: 0;
-    transform: translateX(200px);
   }
-  35% {
+  60% {
+    transform: translateX(0);
     opacity: 0.4;
   }
-  75% {
+  62% {
+    transform: skewX(0) translateX(-30px);
     opacity: 0.7;
   }
-  100% {
+  70% {
+    transform: skew(20deg);
     opacity: 1;
+  }
+  80% {
+    transform: skew(0deg) translate(0);
+  }
+  90% {
+    transform: skew(5deg);
+  }
+  100% {
+    transform: skew(0deg);
   }
 }
 
-@keyframes scrollAnimated {
+@keyframes scrollDown {
   0% {
+    transform: skewY(53deg) translateY(-500px);
     opacity: 0;
-    transform: translateX(200px);
   }
-  35% {
+  60% {
+    transform: translateY(0);
     opacity: 0.4;
   }
-  75% {
+  62% {
+    transform: skewY(0) translateY(30px);
     opacity: 0.7;
   }
-  100% {
+  70% {
+    transform: skew(-20deg);
     opacity: 1;
+  }
+  80% {
+    transform: skew(0deg) translate(0);
+  }
+  90% {
+    transform: skew(-5deg);
+  }
+  100% {
+    transform: skew(0deg);
   }
 }
 
@@ -218,43 +194,43 @@
   }
 }
 
-/* Resume */
-
-@keyframes backEffect {
-  0% {
-    transform: translateY(300px);
-  }
-  35% {
-    transform: translateY(75px);
-  }
-  70% {
-    transform: translateY(37.5px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
 /* All page */
 
-body,
-html,
-header,
-h1 {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+html,
 body {
-  font-family: flood-std, sans-serif;
-  overflow: none;
+  font-family: "Red Hat Text", "Helvetica", "Arial", sans-serif;
+  background: #131313;
+  transition: all 0.5s ease;
 }
 
-header,
-body,
-html {
+header {
+  height: 100vh;
+  /*background: url(../img/header.jpg) 50% 50%;
+  background-size: cover;
+  position: relative;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f5f5f7;
+}
+
+header img {
   width: 100%;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin: auto;
 }
 
 ul {
@@ -268,241 +244,231 @@ a {
 }
 
 div div a:hover {
-  color: grey;
+  color: #999;
   border-radius: 10px;
   -webkit-animation: linkEffect 1s ease;
   animation: linkEffect 1s ease;
 }
 
 section {
-  width: 100%;
+  opacity: 0;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer {
+  background: #161616;
+  color: #6e6e73;
+  font-size: 1em;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .buttonSections {
   font-size: 1.5em;
 }
 
+.visible {
+  -webkit-animation: visibleContain 1s ease-in forwards;
+  animation: visibleContain 1s ease-in forwards;
+}
+
+.not-visible {
+  -webkit-animation: unvisibleContain 1s ease-in forwards;
+  animation: unvisibleContain 1s ease-in forwards;
+}
+
 /* Scroll */
 
 .is-visible {
-  -webkit-animation: scrollAnimated 1s linear alternate;
-  animation: scrollAnimated 1s linear alternate;
+  background: #fcf8f3;
+}
+
+/* Header */
+
+#headerTitle {
+  padding: 0 0 30px 0;
+  font-size: 80px;
+  -webkit-animation: titled 0.7s ease-in-out forwards;
+  animation: titled 0.7s ease-in-out forwards;
+}
+
+#headerFirst {
+  margin: 0;
+  padding: 0 0 5px 0;
+  font-size: 40px;
+  -webkit-animation: first 1.7s ease-out forwards;
+  animation: first 1.7s ease-out forwards;
+}
+
+#headerSecond {
+  margin: 0;
+  padding: 5px 0 30px 0;
+  font-size: 20px;
+  -webkit-animation: first 3s ease-out forwards;
+  animation: first 3s ease-out forwards;
+}
+
+#headerThird {
+  font-size: 30px;
+  -webkit-animation: first 4.1s ease-in forwards;
+  animation: first 4.1s ease-out forwards;
+}
+
+header a,
+#resume .resume-paper a,
+#portfolio .portfolio-paper a {
+  color: #1b6ca8;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 1px 1px 0 #f5f5f7;
+}
+
+header a:hover,
+#resume .resume-paper a:hover,
+#portfolio .portfolio-paper a:hover {
+  color: #999;
+  box-shadow: 1px 8px 12px 4px #f5f5f7;
 }
 
 /* Navbar */
 
 .container-navbar {
-  width: 100px;
-  -webkit-transform: rotate(10deg); /* Safari */
-  transform: translate(20px, 20px) rotate(-10deg); /* Tous les autres navigateurs */
-  background: #edf492;
-  border-style: solid;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background: #fcf9f4;
+  box-shadow: 0 0px O 0 rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #ececec;
   z-index: 10;
-  position: fixed;
-  border-color: transparent #edf492 #edf492 #edf492;
+  position: relative;
+  top: 0;
+  opacity: 0;
 }
 
-div div a {
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  width: 70%;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div div a, .nav li   {
   padding: 0 5px;
-  font-size: 1.2em;
+  font-size: 20px;
   color: black;
 }
 
 .active {
-  color: grey;
+  color: #999;
 }
 
 .navbar-lang {
   width: 140px;
-}
-
-header h1 {
-  width: auto;
-  font-size: 1.2em;
-}
-
-header h1:hover {
-  color: grey;
-}
-
-header {
-  text-align: start;
+  text-align: center;
   padding: 5px;
 }
 
-.unfold {
-  height: 100px;
-  -webkit-animation: postItUnfold 0.7s linear forwards;
-  animation: postItUnfold 0.7s linear forwards;
-}
-
-.fold {
-  -webkit-animation: postIt 0.7s linear forwards;
-  animation: postIt 0.7s linear forwards;
-}
-
-.nav {
-  width: 70%;
-  -webkit-animation: postItUnfoldText 1s ease-in forwards;
-  animation: postItUnfoldText 1s ease-in forwards;
-}
-
-.close {
-  display: none;
-  -webkit-animation: postItText 1s linear forwards;
-  animation: postItText 1s linear forwards;
-}
-
 .nav-item {
-  padding: 5px 0 5px 10px;
+  padding: 10px;
+}
+
+.nav li a {
+  color: black;
 }
 
 a:hover {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #999;
 }
 
-.logo {
-  width: 32px;
-  height: 32px;
-}
+/* Resume */
 
-/* About me */
-
-section:nth-child(2) {
-  background-color: #f4f4f4;
-}
-
-#aboutMe {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.aboutMe-paper {
-  width: 500px;
-  margin-right: 50px;
-  background-color: #fcf8f3;
-  border: 1px solid #fcf8f3;
+#resume {
+  background-color: #ffcd3c;
+  object-fit: cover;
+  width: 90%;
+  height: 70%;
   padding: 50px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
 
-#aboutMeTitle {
-  padding: 0 0 30px 0;
-  font-size: 3em;
-  -webkit-animation: titled 0.7s ease-in-out forwards;
-  animation: titled 0.7s ease-in-out forwards;
-}
-
-#aboutMeFirst {
-  margin: 0;
-  padding: 0 0 5px 0;
-  font-size: 2.5em;
-  -webkit-animation: first 1.7s ease-out forwards;
-  animation: first 1.7s ease-out forwards;
-}
-
-#aboutMeSecond {
-  margin: 0;
-  padding: 5px 0 30px 0;
-  font-size: 1.5em;
-  -webkit-animation: first 3s ease-out forwards;
-  animation: first 3s ease-out forwards;
-}
-
-#aboutMeThird {
-  font-size: 1.5em;
-  -webkit-animation: first 4.1s ease-in forwards;
-  animation: first 4.1s ease-out forwards;
-}
-
-#aboutMe a,
-#resume .resume-paper a,
-#portfolio .portfolio-paper a {
-  color: #1b6ca8;
-  text-align: center;
-  padding: 10px;
-  border: 1px solid grey;
-  border-radius: 10px;
-  width: 180px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-#aboutMe a:hover,
-#resume .resume-paper a:hover,
-#portfolio .portfolio-paper a:hover {
-  color: grey;
-  box-shadow: 1px 8px 12px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Resume */
-
-section:nth-child(3) {
-  background: url(../img/white-ceramic.webp),
-    url(../img/white-ceramic.jpg) no-repeat center center;
-  background-attachment: fixed;
-}
-
-#resume {
-  background-size: cover;
+.resume-paper {
   width: 100%;
-  height: 100%;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.resume-paper {
-  text-align: center;
-  vertical-align: center;
-  width: 450px;
   background-color: #fcf8f3;
   border: 1px solid #fcf8f3;
   padding: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 .resume-paper h1 {
-  font-size: 3em;
+  font-size: 40px;
   padding: 20px 0;
 }
 
 /* Portfolio */
 
-section:nth-child(4) {
-  background: url(../img/tablet.jpg) no-repeat center center;
+#portfolio {
+  background: #fc7f73;
+  width: 90%;
+  height: 70%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-#portfolio {
-  background-size: cover;
+.portfolio-paper {
   width: 100%;
-  height: 100%;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.portfolio-paper {
-  text-align: center;
-  vertical-align: center;
-  width: 350px;
-  margin-right: 10px;
+  background-color: #fcf8f3;
+  border: 1px solid #fcf8f3;
   padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .portfolio-paper h1 {
-  font-size: 3em;
+  font-size: 40px;
   padding: 20px 0;
+}
+
+.footer {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-item {
+  padding: 10px;
 }
 
 @media only screen and (max-width: 940px) {
@@ -611,47 +577,24 @@ section:nth-child(4) {
     }
   }
 
-  /* Navabr */
+  /* Header */
 
-  .unfold {
-    height: 100px;
-  }
-
-  .fold {
-    height: 170px;
-  }
-
-  nav {
-    display: none;
-  }
-
-  .close {
-    display: block !important;
-  }
-
-  /* About me */
-
-  .aboutMe-paper {
-    width: auto;
-    padding-top: 10px;
-  }
-
-  #aboutMeTitle {
-    margin: 20px 0;
+  #headerTitle {
+    margin: 0 0 20px 0;
     font-size: 3em;
   }
 
-  #aboutMeFirst {
+  #headerFirst {
     margin: 5px 0;
     font-size: 2.5em;
   }
 
-  #aboutMeSecond {
+  #headerSecond {
     margin: 0 0 40px 0;
     font-size: 1.5em;
   }
 
-  #aboutMeThird {
+  #headerThird {
     font-size: 1.5em;
   }
 
@@ -671,9 +614,10 @@ section:nth-child(4) {
 }
 
 @media only screen and (max-width: 600px) {
-  /* All site */
-  .buttonSections {
-    font-size: 1em;
+  header a,
+  #resume .resume-paper a,
+  #portfolio .portfolio-paper a {
+    font-size: 25px;
   }
 
   /* Navbar */
@@ -686,106 +630,62 @@ section:nth-child(4) {
     font-size: 1.5em;
   }
 
-  .logo {
-    width: 52px;
-    height: 52px;
-  }
+  /* Header */
 
-  /* About me */
-
-  .aboutMe-paper {
-    width: 250px;
-  }
-
-  #aboutMeTitle {
-    font-size: 2em;
-  }
-
-  #aboutMeFirst {
-    font-size: 1.5em;
-  }
-
-  #aboutMeSecond {
-    font-size: 1em;
-  }
-
-  #aboutMeThird {
-    font-size: 1em;
-  }
-
-  /* Resume */
-
-  .resume-paper {
-    width: 250px;
-  }
-  .resume-paper h1 {
-    font-size: 2em;
-  }
-
-  /* Portfolio */
-
-  .portfolio-paper {
-    width: 250px;
-  }
-  .portfolio-paper h1 {
-    font-size: 2em;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  /* All site */
-  .buttonSections {
-    font-size: 0.5em;
-  }
-
-  /* About me */
-
-  #aboutMe {
-    padding-top: 40px;
-  }
-
-  .aboutMe-paper {
-    width: 100%;
-    max-width: 190px;
-    height: 280px;
-  }
-
-  #aboutMeTitle {
-    font-size: 1.2em;
+  #headerTitle {
+    font-size: 40px;
     padding-bottom: 5px;
     margin: 0;
   }
 
-  #aboutMeFirst {
+  #headerFirst {
     padding: 0;
     margin-bottom: 0;
-    font-size: 0.8em;
+    font-size: 30px;
   }
 
-  #aboutMeSecond {
+  #headerSecond {
     padding-bottom: 0;
-    font-size: 0.5em;
+    font-size: 15px;
   }
 
-  #aboutMeThird {
-    font-size: 0.5em;
+  #headerThird {
+    font-size: 25px;
   }
 
   /* Resume */
 
   .resume-paper {
-    width: 180px;
+    width: 100%;
+    height: 33vh;
   }
   .resume-paper h1 {
-    font-size: 1.5em;
+    padding-bottom: 30px;
+    font-size: 40px;
   }
 
   /* Portfolio */
 
   .portfolio-paper {
-    width: 180px;
+    width: 100%;
+    margin: 0;
   }
   .portfolio-paper h1 {
-    font-size: 1.5em;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  /* Resume */
+
+  .resume-paper {
+    width: 250px;
+    height: 42vh;
+  }
+  /* Portfolio */
+
+  .portfolio-paper {
+    width: 250px;
+    height: 30vh;
   }
 }
