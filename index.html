@@ -9,50 +9,71 @@
 </head>
 
 <body>
-  <div id="header" class="container-navbar unfold">
+  <header>
+    <div class="header-paper">
+      <h1 id="headerTitle">Hello,</h1>
+      <p id="headerFirst">I am Carolina Tirado.</p>
+      <p id="headerSecond">I am a front-end web developer.</p>
+      <a href="#firstSection" id="headerThird">Welcome!</a>
+    </div>
+  </header>
+  <div id="header" class="container-navbar">
+    <!--<div onclick="buttonNav()"></div>!-->
     <div class="navbar-lang">
       <a href="#" class="active" language="en">EN</a>
       <a href="#" language="fr">FR</a>
       <a href="#" language="es">
         ES</a>
     </div>
-    <div class="icon" onclick="buttonNav()">
-      <header>
-        <h1>Carolina Tirado</h1>
-      </header>
-    </div>
-    <nav id="mobileNavbar" class="nav">
+    <nav class="nav">
       <!-- Navbar -->
-      <ul class="nav">
+      <ul>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/CaroTrd" target="_blank"><img class="logo"
-              srcset="assets/img/github.png" src="assets/img/github.webp" alt="github" /></a>
+          <a class="nav-link" href="#firstSection">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/carolina-tirado/" target="_blank"><img class="logo"
-              srcset="assets/img/linkedin.png" src="assets/img/linkedin.webp" alt="linkedin" /></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=""><img class="logo" srcset="assets/img/gmail.png" src="assets/img/gmail.webp" alt="gmail" target="_blank" /></a>
+          <a class="nav-link" href="#secondSection">Portfolio</a>
         </li>
       </ul>
     </nav>
   </div>
-  <section id="aboutMe">
-    <div class="aboutMe-paper show-on-scroll">
-      <h1 id="aboutMeTitle">Hello,</h1>
-      <p id="aboutMeFirst">I am Carolina.</p>
-      <p id="aboutMeSecond">I am a front-end web developer.</p>
-      <a href="#resume" id="aboutMeThird">Welcome!</a>
-    </div>
-
-  </section>
-  <section id="resume">
-    <div class="resume-paper show-on-scroll">
-      <h1 id="resumeTitle">Resume</h1>
-      <a href="" target="_blank" id="resumeFirst">Let's go</a>
+  <section id="firstSection">
+    <div id="resume">
+      <div class="resume-paper show-on-scroll">
+        <h1 id="resumeTitle">Resume</h1>
+        <a href="https://www.linkedin.com/in/carolina-tirado/" target="_blank" class="buttonSections">Let's go</a>
+      </div>
     </div>
   </section>
+  <section id="secondSection">
+    <div id="portfolio">
+      <div class="portfolio-paper show-on-scroll">
+        <h1 id="portfolioTitle">Portfolio</h1>
+        <a href="" target="_blank" class="buttonSections">Let's go</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div>© 2020 Carolina Tirado</div>
+    <ul class="footer">
+      <li class="footer-item">
+        <a href="https://github.com/CaroTrd" target="_blank"><img class="logo"
+            srcset="assets/img/github.png" src="assets/img/github.webp" alt="github" /></a>
+      </li>
+      <li class="footer-item">
+        <a href="https://500px.com/micarolyy" target="_blank"><img class="logo"
+            srcset="assets/img/500px.png" src="assets/img/500px.webp" alt="500px" /></a>
+      </li>
+      <li class="footer-item">
+        <a href="https://www.instagram.com/carotrd_/" target="_blank"><img class="logo"
+            srcset="assets/img/instagram.png" src="assets/img/instagram.webp" alt="instagram" /></a>
+      </li>
+      <li class="footer-item">
+        <a href=""><img class="logo" srcset="assets/img/gmail.png" src="assets/img/gmail.webp"
+            alt="gmail" target="_blank" /></a>
+      </li>
+    </ul>
+  </footer>
   <script type="text/javascript" src="./assets/js/javascript.js"></script>
 </body>
 
