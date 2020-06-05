@@ -1,0 +1,24 @@
+.container-footer {
+  width: 100%;
+  background: #161616;
+  font-size: 1em;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-footer div {
+  color: #6e6e73;
+}
+
+.footer {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-item {
+  padding: 10px;
+}

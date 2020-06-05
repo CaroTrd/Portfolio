@@ -1,0 +1,77 @@
+@-webkit-keyframes linkEffect {
+  25% {
+    border-top: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    border-bottom: 1px solid #999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    border-top: 1px solid #ececec;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+@keyframes linkEffect {
+  25% {
+    border-top: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    border-bottom: 1px solid #999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    border-top: 1px solid #ececec;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 30px 10px;
+  background: rgb(252, 249, 244);
+  border-bottom: 1px solid #ececec;
+  z-index: 10;
+  opacity: 0;
+}
+
+.navbar-lang {
+  width: 140px;
+  text-align: center;
+  padding: 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+div div a, .nav li   {
+  padding: 0 5px;
+}
+
+.nav li a:hover {
+  padding: 5px;
+  color: #999;
+  border-radius: 10px;
+  -webkit-animation: linkEffect 1s ease;
+  animation: linkEffect 1s ease;
+}
+
+
+

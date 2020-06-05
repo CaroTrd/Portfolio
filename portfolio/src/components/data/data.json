@@ -1,0 +1,706 @@
+{ 
+  "covid": [
+  {
+    "id": 1,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/covid-solidarity/1.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/covid-solidarity/1.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/covid-solidarity/1-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/covid-solidarity/1-800w.webp?raw=true",
+    "mobileV":
+      "",
+    "mobileVWebp":
+      ""
+  },
+  {
+    "id": 2,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/covid-solidarity/2.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/covid-solidarity/2.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/covid-solidarity/2-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/covid-solidarity/2-800w.webp?raw=true",
+    "mobileV":
+      "",
+    "mobileVWebp":
+      ""
+  }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/1.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/1.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/1-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/1-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 2,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/2.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/2.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/2-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/2-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 3,
+      "type": "video",
+      "link":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/recipes.mp4?raw=true"
+    }
+    ],
+  "pointbook": [
+    {
+      "id": 1,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/1.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/1.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/1-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/1-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 2,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/5.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/5.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/5-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/5-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 3,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/2.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/2.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/2-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/2-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 4,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/3.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/3.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/3-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/3-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 5,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/4.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/4.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/4-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/4-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 6,
+      "type": "video",
+      "link":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/pointbook.mp4?raw=true"
+    }
+    ],
+  "phonebook": [
+    {
+      "id": 1,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/phonebook/1.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/phonebook/1.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/phonebook/1-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/phonebook/1-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 2,
+      "type": "video",
+      "link":
+        "https://github.com/CaroTrd/stock/blob/master/phonebook/phonebook.mp4?raw=true"
+    }
+    ],
+  "eboutique": [
+    {
+      "id": 1,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/eboutique/1.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/eboutique/1.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/eboutique/1-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/eboutique/1-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 2,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/eboutique/2.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/eboutique/2.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/eboutique/2-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/eboutique/2-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 3,
+      "type": "video",
+      "link":
+        "https://github.com/CaroTrd/stock/blob/master/eboutique/eboutique.mp4?raw=true"
+    }
+    ],
+  "sixtines": [
+    {
+      "id": 1,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/1.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/1.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/1-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/1-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 2,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/2.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/2.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/2-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/2-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 3,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/3.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/3.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/3-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/3-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 4,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/4.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/4.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/4-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/4-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 5,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/5.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/5.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/5-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/5-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 6,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/6.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/6.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/6-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/6-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 7,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/7.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/7.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/7-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/7-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 8,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/8.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/8.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/8-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/8-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 9,
+      "type": "video",
+      "link":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/Sixtine's.mp4?raw=true"
+    }
+    ],
+  "pfpclub": [
+  {
+    "id": 1,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/1.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/1.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/1-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/1-800w.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/1-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/1-mobile.webp?raw=true"
+  },
+  {
+    "id": 2,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/2.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/2.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/2-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/2-800w.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/2-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/2-mobile.webp?raw=true"
+  },
+  {
+    "id": 3,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/3.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/3.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/3-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/3-800w.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/3-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/3-mobile.webp?raw=true"
+  },
+  {
+    "id": 4,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/4.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/4.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/4-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/4-800w.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/4-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/4-mobile.webp?raw=true"
+  },
+  {
+    "id": 5,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/5.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/5.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/5-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/5-800w.webp?raw=true",
+    "mobileV":
+      "",
+    "mobileVWebp":
+      ""
+  },
+  {
+    "id": 6,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/6.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/6.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/6-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/6-800w.webp?raw=true",
+    "mobileV":
+      "",
+    "mobileVWebp":
+      ""
+  },
+  {
+    "id": 7,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/7.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/7.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/7-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/7-800w.webp?raw=true",
+    "mobileV":
+      "",
+    "mobileVWebp":
+      ""
+  },
+  {
+    "id": 8,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/8.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/8.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/9-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/9-800w.webp?raw=true",
+    "mobileV":
+      "",
+    "mobileVWebp":
+      ""
+  },
+  {
+    "id": 9,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/10.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/10.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/10-800w.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/10-800w.webp?raw=true",
+    "mobileV":
+      "",
+    "mobileVWebp":
+      ""
+  },
+  {
+    "id": 10,
+    "type": "video",
+    "link":
+      "https://github.com/CaroTrd/stock/blob/master/pfp/pfpclub.mp4?raw=true"
+  }
+  ],
+  "calendar": [
+    {
+      "id": 1,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/1.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/1.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/1-800v.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/1-800v.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        "e"
+    },
+    {
+      "id": 2,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/2.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/2.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/2-800v.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/2-800v.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 3,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/3.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/3.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/3-800v.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/3-800v.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 4,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/4.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/4.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/4-800v.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/calendar/4-800v.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 5,
+      "type": "video",
+      "link":"https://github.com/CaroTrd/stock/blob/master/calendar/Calendar.mp4?raw=true"
+    }
+  ],
+  "shakeit":[
+  {
+    "id": 1,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/1.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/1.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/1-800v.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/1-800v.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/1-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/1-mobile.webp?raw=true"
+  },
+  {
+    "id": 2,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/2.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/2.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/2-800v.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/2-800v.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/2-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/2-mobile.webp?raw=true"
+  },
+  {
+    "id": 3,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/3.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/3.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/3-800v.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/3-800v.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/3-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/3-mobile.webp?raw=true"
+  },
+  {
+    "id": 4,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/4.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/4.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/4-800v.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/4-800v.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/4-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/4-mobile.webp?raw=true"
+  },
+  {
+    "id": 5,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/5.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/5.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/5-800v.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/5-800v.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/5-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/5-mobile.webp?raw=true"
+  },
+  {
+    "id": 6,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/8.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/8.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/8-800v.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/8-800v.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/8-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/8-mobile.webp?raw=true"
+  },
+  {
+    "id": 7,
+    "type": "picture",
+    "web":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/6.jpg?raw=true",
+    "webWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/6.webp?raw=true",
+    "mobileS":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/6-800v.jpg?raw=true",
+    "mobileSWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/6-800v.webp?raw=true",
+    "mobileV":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/6-mobile.jpg?raw=true",
+    "mobileVWebp":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/6-mobile.webp?raw=true"
+  },
+  {
+    "id": 8,
+    "type": "video",
+    "link":
+      "https://github.com/CaroTrd/stock/blob/master/shakeit/shakeit.mp4?raw=true"
+  }
+]}
