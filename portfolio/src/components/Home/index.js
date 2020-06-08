@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink, withRouter } from "react-router-dom";
-import executeScroll from "../../modules";
+import { executeScroll } from "../../modules";
 
 import Header from "../Header";
+import Popup from "../Popup";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
@@ -52,13 +53,13 @@ const Home = () => {
       <Header />
       <Navbar />
       <div className="container-home" id="resume" ref={targetRef}>
-        <div className="container-paper">
+        <div className="container-paper resume">
           <div className="paper">
-            <h1 className="title">Resume</h1>
+            <h1 className="title" id="resumeTitle">Resume</h1>
             <button
               onClick={() => setClick({ ...click, press: true, resume: true })}
               target="_blank"
-              className="buttonSections"
+              className="button section"
             >
               Let's go
             </button>
@@ -66,10 +67,10 @@ const Home = () => {
         </div>
       </div>
       <div className="container-home" id="portfolio">
-        <div className="container-paper">
+        <div className="container-paper portfolio">
           <div className="paper">
-            <h1 className="title">Portfolio</h1>
-            <NavLink to="/portfolio" className="buttonSections">
+            <h1 className="title" id="portfolioTitle">Portfolio</h1>
+            <NavLink to="/portfolio" className="button section">
               Let's go
             </NavLink>
           </div>

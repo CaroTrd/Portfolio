@@ -1,4 +1,4 @@
-.portfolio {
+.portfolio-section {
   width: 100%;
   height: 100%;
 }
@@ -9,4 +9,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.work {
+  background: #75B1A9;
+  align-items: flex-start;
+
+}
+
+.volunteer {
+  background: #D9B44A;
+  align-items: center;
+}
+
+.personal {
+  background: #4F6457;
+  align-items: flex-end;
+}
+
+.training {
+  background: #ACD0C0;
+  align-items: flex-start;
 }

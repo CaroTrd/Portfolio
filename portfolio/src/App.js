@@ -5,9 +5,11 @@ import Portfolio from "./components/Portfolio";
 
 import "./App.css";
 import Home from "./components/Home";
-import VolunteersProjects from "./components/VolunteersProjects";
-import SchoolProjects from "./components/SchoolProjects";
-import Works from "./components/Works";
+import Personal from "./components/Personal";
+import Volunteer from "./components/Volunteer";
+import Training from "./components/Training";
+import Work from "./components/Work";
+
 
 function App() {
   return (
@@ -15,13 +17,16 @@ function App() {
       <Switch>
         <Route exact path="/" render={() => <Home />} />
         <Route path="/portfolio" render={() => <Portfolio />} />
-        <Route path="/works" render={() => <Works />} />
+        <Route path="/work-projects" render={() => <Work />} />
         <Route
-          className="container-register"
-          path="/volunteer-personal-projects"
-          render={() => <VolunteersProjects />}
+          path="/volunteer-projects"
+          render={() => <Volunteer />}
         />
-        <Route path="/school-project" render={() => <SchoolProjects />} />
+        <Route
+          path="/personal-projects"
+          render={() => <Personal />}
+        />
+        <Route path="/school-project" render={() => <Training />} />
         {/* <Route render={() => <NotFound />} />*/}
       </Switch>
     </div>

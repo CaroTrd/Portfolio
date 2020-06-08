@@ -1,4 +1,4 @@
-@-webkit-keyframes titled {
+/*@-webkit-keyframes titled {
   from {
     opacity: 0;
   }
@@ -71,6 +71,18 @@
   }
 }
 
+@keyframes animated {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}*/
+
 .container-header {
   width: 100%;
   height: 100vh;
@@ -85,33 +97,72 @@
 #headerTitle {
   padding: 0 0 30px 0;
   font-size: 80px;
-  -webkit-animation: titled 0.7s ease-in-out forwards;
-  animation: titled 0.7s ease-in-out forwards;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #f1f1f2,
+    #bcbabe,
+    #a1d6e2,
+    #1995ad
+  );
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #f5f5f7;
+  /*-webkit-animation: titled 0.7s ease-in-out forwards;
+  animation: titled 0.7s ease-in-out forwards;*/
 }
 
 #headerFirst {
   margin: 0;
   padding: 0 0 5px 0;
   font-size: 40px;
-  -webkit-animation: first 1.7s ease-out forwards;
-  animation: first 1.7s ease-out forwards;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #f1f1f2,
+    #bcbabe,
+    #a1d6e2,
+    #1995ad
+  );
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.7px #f5f5f7;
+  /*-webkit-animation: first 1.7s ease-out forwards;
+  animation: first 1.7s ease-out forwards;*/
 }
 
 #headerSecond {
   margin: 0;
   padding: 5px 0 30px 0;
   font-size: 20px;
-  -webkit-animation: first 3s ease-out forwards;
-  animation: first 3s ease-out forwards;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #f1f1f2,
+    #bcbabe,
+    #a1d6e2,
+    #1995ad
+  );
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.7px #f5f5f7;
+  /*-webkit-animation: first 3s ease-out forwards;
+  animation: first 3s ease-out forwards;*/
 }
 
 #headerThird {
   font-size: 30px;
-  -webkit-animation: first 4.1s ease-in forwards;
-  animation: first 4.1s ease-out forwards;
-}
-
-a:hover {
-  color: #999;
-  box-shadow: 1px 8px 12px 4px #f5f5f7;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #f1f1f2,
+    #bcbabe,
+    #a1d6e2,
+    #1995ad
+  );
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.7px #f5f5f7;
+  /*-webkit-animation: first 4.1s ease-in forwards;
+  animation: first 4.1s ease-out forwards;*/
 }

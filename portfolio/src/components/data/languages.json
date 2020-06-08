@@ -1,0 +1,47 @@
+{
+  "en": {
+    "title": "Hello,",
+    "para1": "I am Carolina.",
+    "para2": "I am a front-end web developer.",
+    "para3": "Welcome!",
+    "para4": "Resume",
+    "para5": "Let's go",
+    "para6": "Portfolio",
+    "para7": "Work projects",
+    "para8": "Volunteer projects",
+    "para9": "Personal projects",
+    "para10": "Training projects",
+    "nav1": "Resume",
+    "nav2": "Portfolio"
+  },
+  "fr": {
+    "title": "Salut,",
+    "para1": "Je m'appelle Carolina.",
+    "para2": "Je suis un développeur web front-end.",
+    "para3": "Bienvenu(e)!",
+    "para4": "Curriculum vitae",
+    "para5": "C'est parti",
+    "para6": "Portfolio",
+    "para7": "Projets de travail",
+    "para8": "Projets bénévoles",
+    "para9": "Projets personnels",
+    "para10": "Projets de la formation",
+    "nav1": "Curriculum vitae",
+    "nav2": "Portfolio"
+  },
+  "es": {
+    "title": "Hola,",
+    "para1": "Me llamo Carolina.",
+    "para2": "Soy desarrolladora web front-end.",
+    "para3": "Bienvenido/a!",
+    "para4": "Curriculum vitae",
+    "para5": "Ingresar",
+    "para6": "Portfolio",
+    "para7": "Works",
+    "para8": "Volunteer projects",
+    "para9": "Personal projects",
+    "para10": "Proyectos de la formación",
+    "nav1": "Curriculum vitae",
+    "nav2": "Portfolio"
+  }
+}

@@ -19,7 +19,7 @@ function Header() {
             },
           }}
           id="headerThird"
-          className="buttonSections"
+          className="button introduction"
         >
           Welcome!
         </Link>

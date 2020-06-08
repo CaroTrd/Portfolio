@@ -1,109 +1,120 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink, withRouter } from "react-router-dom";
+
+/*import { languages } from "../../modules/index";*/
+
 import "./index.css";
 
 const Navbar = (props) => {
   const [nav, setNav] = useState(0);
+
   useEffect(() => {
-    window.addEventListener("scroll", scrollBar);
-    scrollBar();
     pathLocation();
+    /*languages();*/
+    onScroll();
   });
+
+  const onScroll = () => {
+    window.onscroll = function () {
+      const winScroll =
+        document.body.scrollTop || document.documentElement.scrollTop;
+      const height =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      console.log(document.getElementById("progress").style !== null, document.getElementById("progress").style)
+      if (scrolled !== null || document.getElementById("progress").style !== null) {
+        document.getElementById("progress").style.width = scrolled + "%";
+      }
+    };
+  };
+
   const pathLocation = () => {
-    let x = document.querySelector(".container-navbar");
     if (props.location.pathname === "/") {
       setNav(1);
     } else if (props.location.pathname === "/portfolio") {
       setNav(2);
-      x.style.opacity = 1;
     } else {
       setNav(3);
-      x.style.opacity = 1;
     }
   };
-  const scrollBar = () => {
-    let x = document.querySelector(".container-navbar");
-    if (window.location.pathname === "/") {
-      if (window.scrollY > window.innerHeight / 1.5) {
-        x.classList.add("visible");
-      } else {
-        x.classList.remove("visible");
-      }
-    }
-  };
+
   return (
-    <div className="container-navbar">
-      {nav === 1 && (
-        <div className="navbar-lang">
-          <a href="" className="active" language="en">
-            EN
-          </a>
-          <a href="" language="fr">
-            FR
-          </a>
-          <a href="" language="es">
-            ES
-          </a>
+    <div>
+      {nav === 1 && <div className="progress-bar" id="progress"></div>}
+      {nav === 2 && (
+        <div>
+          <div className="container-navbar">
+            {/*<div className="navbar-lang">
+              <NavLink to="#" className="active" language="en">
+                EN
+              </NavLink>
+              <NavLink to="#" language="fr">
+                FR
+              </NavLink>
+              <NavLink to="#" language="es">
+                ES
+              </NavLink>
+      </div>*/}
+            <ul className="nav">
+              <li className="nav-item">
+                <NavLink exact to="/">
+                  Home
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/portfolio">Portfolio</NavLink>
+              </li>
+            </ul>
+          </div>
+          <div className="progress-bar" id="progress"></div>
         </div>
       )}
-      {nav === 2 && (
-        <Fragment>
-          <div className="navbar-lang">
-            <a href="" className="active" language="en">
-              EN
-            </a>
-            <a href="" language="fr">
-              FR
-            </a>
-            <a href="" language="es">
-              ES
-            </a>
-          </div>
-          <ul className="nav">
-            <li className="nav-item">
-              <NavLink exact to="/">
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/portfolio">Portfolio</NavLink>
-            </li>
-          </ul>
-        </Fragment>
-      )}
       {nav === 3 && (
-        <Fragment>
-          <div className="navbar-lang">
-            <a href="" className="active" language="en">
-              EN
-            </a>
-            <a href="" language="fr">
-              FR
-            </a>
-            <a href="" language="es">
-              ES
-            </a>
-          </div>
-          <ul className="nav">
-            <li className="nav-item">
-              <NavLink exact to="/">
-                Home
+        <div>
+          <div className="container-navbar">
+            {/*<div className="navbar-lang">
+              <NavLink to="#" className="active" language="en">
+                EN
               </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/portfolio">Portfolio</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/works">Works</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/volunteer-personal-projects">Volunteer and personal projects</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/school-project">School project</NavLink>
-            </li>
-          </ul>
-        </Fragment>
+              <NavLink to="#" language="fr">
+                FR
+              </NavLink>
+              <NavLink to="#" language="es">
+                ES
+              </NavLink>
+      </div>*/}
+            <ul className="nav">
+              <li className="nav-item">
+                <NavLink exact to="/" className="active">
+                  Home
+                </NavLink>
+              </li>
+              <li className="dropdown">
+                <NavLink to="/portfolio" className="dropbtn">
+                  Portfolio
+                </NavLink>
+                <ul className="dropdown-content">
+                  <li className="nav-item">
+                    <NavLink to="/work-projects">Work projects</NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink to="/volunteer-projects">
+                      Volunteer projects
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink to="/personal-projects">Personal projects</NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink to="/school-project">Training project</NavLink>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div className="progress-bar" id="progress"></div>
+        </div>
       )}
     </div>
   );

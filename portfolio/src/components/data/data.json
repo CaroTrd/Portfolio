@@ -68,6 +68,38 @@
     },
     {
       "id": 3,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/3.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/3.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/3-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/3-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 4,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/4.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/4.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/4-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/recipes/4-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 5,
       "type": "video",
       "link":
         "https://github.com/CaroTrd/stock/blob/master/recipes/recipes.mp4?raw=true"
@@ -156,6 +188,54 @@
     },
     {
       "id": 6,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/6.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/6.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/6-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/6-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 7,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/7.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/7.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/7-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/7-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 8,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/8.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/8.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/8-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/pointbook/8-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 9,
       "type": "video",
       "link":
         "https://github.com/CaroTrd/stock/blob/master/pointbook/pointbook.mp4?raw=true"
@@ -185,46 +265,216 @@
         "https://github.com/CaroTrd/stock/blob/master/phonebook/phonebook.mp4?raw=true"
     }
     ],
-  "eboutique": [
-    {
-      "id": 1,
-      "type": "picture",
-      "web":
-        "https://github.com/CaroTrd/stock/blob/master/eboutique/1.jpg?raw=true",
-      "webWebp":
-        "https://github.com/CaroTrd/stock/blob/master/eboutique/1.webp?raw=true",
-      "mobileS":
-        "https://github.com/CaroTrd/stock/blob/master/eboutique/1-800w.jpg?raw=true",
-      "mobileSWebp":
-        "https://github.com/CaroTrd/stock/blob/master/eboutique/1-800w.webp?raw=true",
-      "mobileV":
-        "",
-      "mobileVWebp":
-        ""
-    },
-    {
-      "id": 2,
-      "type": "picture",
-      "web":
-        "https://github.com/CaroTrd/stock/blob/master/eboutique/2.jpg?raw=true",
-      "webWebp":
-        "https://github.com/CaroTrd/stock/blob/master/eboutique/2.webp?raw=true",
-      "mobileS":
-        "https://github.com/CaroTrd/stock/blob/master/eboutique/2-800w.jpg?raw=true",
-      "mobileSWebp":
-        "https://github.com/CaroTrd/stock/blob/master/eboutique/2-800w.webp?raw=true",
-      "mobileV":
-        "",
-      "mobileVWebp":
-        ""
-    },
-    {
-      "id": 3,
-      "type": "video",
-      "link":
-        "https://github.com/CaroTrd/stock/blob/master/eboutique/eboutique.mp4?raw=true"
-    }
-    ],
+    "caneva": [
+      {
+        "id": 1,
+        "type": "picture",
+        "web":
+          "https://github.com/CaroTrd/stock/blob/master/caneva/1.jpg?raw=true",
+        "webWebp":
+          "https://github.com/CaroTrd/stock/blob/master/caneva/1.webp?raw=true",
+        "mobileS":
+          "https://github.com/CaroTrd/stock/blob/master/caneva/1-800w.jpg?raw=true",
+        "mobileSWebp":
+          "https://github.com/CaroTrd/stock/blob/master/caneva/1-800w.webp?raw=true",
+        "mobileV":
+          "",
+        "mobileVWebp":
+          ""
+      },
+      {
+        "id": 2,
+        "type": "picture",
+        "web":
+          "https://github.com/CaroTrd/stock/blob/master/caneva/2.jpg?raw=true",
+        "webWebp":
+          "https://github.com/CaroTrd/stock/blob/master/caneva/2.webp?raw=true",
+        "mobileS":
+          "https://github.com/CaroTrd/stock/blob/master/caneva/2-800w.jpg?raw=true",
+        "mobileSWebp":
+          "https://github.com/CaroTrd/stock/blob/master/caneva/2-800w.webp?raw=true",
+        "mobileV":
+          "",
+        "mobileVWebp":
+          ""
+      },
+      {
+        "id": 3,
+        "type": "video",
+        "link":
+          "https://github.com/CaroTrd/stock/blob/master/caneva/Caneva.mp4?raw=true"
+      }
+      ],
+    "eboutique": [
+      {
+        "id": 1,
+        "type": "picture",
+        "web":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/1.jpg?raw=true",
+        "webWebp":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/1.webp?raw=true",
+        "mobileS":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/1-800w.jpg?raw=true",
+        "mobileSWebp":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/1-800w.webp?raw=true",
+        "mobileV":
+          "",
+        "mobileVWebp":
+          ""
+      },
+      {
+        "id": 2,
+        "type": "picture",
+        "web":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/2.jpg?raw=true",
+        "webWebp":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/2.webp?raw=true",
+        "mobileS":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/2-800w.jpg?raw=true",
+        "mobileSWebp":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/2-800w.webp?raw=true",
+        "mobileV":
+          "",
+        "mobileVWebp":
+          ""
+      },
+      {
+        "id": 3,
+        "type": "picture",
+        "web":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/3.jpg?raw=true",
+        "webWebp":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/3.webp?raw=true",
+        "mobileS":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/3-800w.jpg?raw=true",
+        "mobileSWebp":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/3-800w.webp?raw=true",
+        "mobileV":
+          "",
+        "mobileVWebp":
+          ""
+      },
+      {
+        "id": 4,
+        "type": "picture",
+        "web":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/4.jpg?raw=true",
+        "webWebp":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/4.webp?raw=true",
+        "mobileS":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/4-800w.jpg?raw=true",
+        "mobileSWebp":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/4-800w.webp?raw=true",
+        "mobileV":
+          "",
+        "mobileVWebp":
+          ""
+      },
+      {
+        "id": 5,
+        "type": "picture",
+        "web":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/5.jpg?raw=true",
+        "webWebp":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/5.webp?raw=true",
+        "mobileS":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/5-800w.jpg?raw=true",
+        "mobileSWebp":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/5-800w.webp?raw=true",
+        "mobileV":
+          "",
+        "mobileVWebp":
+          ""
+      },
+      {
+        "id": 6,
+        "type": "video",
+        "link":
+          "https://github.com/CaroTrd/stock/blob/master/eboutique/eboutique.mp4?raw=true"
+      }
+      ],
+      "ricou": [
+        {
+          "id": 1,
+          "type": "picture",
+          "web":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/1.jpg?raw=true",
+          "webWebp":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/1.webp?raw=true",
+          "mobileS":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/1-800w.jpg?raw=true",
+          "mobileSWebp":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/1-800w.webp?raw=true",
+          "mobileV":
+            "",
+          "mobileVWebp":
+            ""
+        },
+        {
+          "id": 2,
+          "type": "picture",
+          "web":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/2.jpg?raw=true",
+          "webWebp":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/2.webp?raw=true",
+          "mobileS":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/2-800w.jpg?raw=true",
+          "mobileSWebp":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/2-800w.webp?raw=true",
+          "mobileV":
+            "",
+          "mobileVWebp":
+            ""
+        },
+        {
+          "id": 3,
+          "type": "picture",
+          "web":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/3.jpg?raw=true",
+          "webWebp":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/3.webp?raw=true",
+          "mobileS":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/3-800w.jpg?raw=true",
+          "mobileSWebp":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/3-800w.webp?raw=true",
+          "mobileV":
+            "",
+          "mobileVWebp":
+            ""
+        },
+        {
+          "id": 4,
+          "type": "picture",
+          "web":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/4.jpg?raw=true",
+          "webWebp":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/4.webp?raw=true",
+          "mobileS":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/4-800w.jpg?raw=true",
+          "mobileSWebp":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/4-800w.webp?raw=true",
+          "mobileV":
+            "",
+          "mobileVWebp":
+            ""
+        },
+        {
+          "id": 5,
+          "type": "picture",
+          "web":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/5.jpg?raw=true",
+          "webWebp":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/5.webp?raw=true",
+          "mobileS":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/5-800w.jpg?raw=true",
+          "mobileSWebp":
+            "https://github.com/CaroTrd/stock/blob/master/ricougallery/5-800w.webp?raw=true",
+          "mobileV":
+            "",
+          "mobileVWebp":
+            ""
+        }
+        ],
   "sixtines": [
     {
       "id": 1,
@@ -356,6 +606,54 @@
     },
     {
       "id": 9,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/9.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/9.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/9-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/9-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 10,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/10.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/10.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/10-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/10-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 11,
+      "type": "picture",
+      "web":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/11.jpg?raw=true",
+      "webWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/11.webp?raw=true",
+      "mobileS":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/11-800w.jpg?raw=true",
+      "mobileSWebp":
+        "https://github.com/CaroTrd/stock/blob/master/sixtines/11-800w.webp?raw=true",
+      "mobileV":
+        "",
+      "mobileVWebp":
+        ""
+    },
+    {
+      "id": 12,
       "type": "video",
       "link":
         "https://github.com/CaroTrd/stock/blob/master/sixtines/Sixtine's.mp4?raw=true"
